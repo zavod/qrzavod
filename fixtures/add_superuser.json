@@ -1,0 +1,18 @@
+[
+    {"pk": 1, 
+     "model": "auth.user", 
+     "fields": 
+        {"username": "admin", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2011-04-29 10:09:17", 
+        "groups": [1], 
+        "user_permissions": [], 
+        "password": "sha1$1bb65$161ecd16becbaf39a83efdb0a5bf490f8d0cd2d3", 
+        "email": "support@zavode.ru", 
+        "date_joined": "2011-04-29 10:09:17"}
+    }
+]
