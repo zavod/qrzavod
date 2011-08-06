@@ -163,6 +163,8 @@ INSTALLED_APPS = (
     'reversion',
     'uploadify',
     'cms',
+    'django_facebook',
+    'facebookapp',
 )
 
 # A sample logging configuration. The only tangible logging
