@@ -25,6 +25,10 @@ DATABASES = {
     }
 }
 
+FACEBOOK_API_KEY = '138035902951405'
+FACEBOOK_APP_ID = '138035902951405'
+FACEBOOK_APP_SECRET = 'e15b28e4975cbf153814267c4614eb20'
+
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
@@ -118,7 +122,11 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.contrib.messages.context_processors.messages',
     'django.core.context_processors.csrf',
     'django.core.context_processors.request',
+    'django_facebook.context_processors.facebook',
 )
+AUTHENTICATION_BACKENDS = (
+     'django_facebook.auth_backends.FacebookBackend',
+ )
 
 ROOT_URLCONF = 'qrzavod.urls'
 
