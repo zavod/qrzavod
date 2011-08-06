@@ -165,6 +165,7 @@ INSTALLED_APPS = (
     'cms',
     'django_facebook',
     'facebookapp',
+    'facebook_example',
 )
 
 # A sample logging configuration. The only tangible logging
