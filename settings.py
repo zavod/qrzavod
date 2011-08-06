@@ -29,6 +29,8 @@ FACEBOOK_API_KEY = 'ad4dffdbcfe3d11e44d6d9123e835d6c'
 FACEBOOK_APP_ID = '138035902951405'
 FACEBOOK_APP_SECRET = 'e15b28e4975cbf153814267c4614eb20'
 
+AUTH_PROFILE_MODULE = 'facebookapp.models.FBUser'
+
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
